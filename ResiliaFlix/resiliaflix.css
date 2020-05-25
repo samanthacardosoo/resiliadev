@@ -58,8 +58,12 @@ a {
     justify-content: center;
 }
 
-.listadefilmes .filmes {
+.filmes {
     padding: 44px;
+}
+
+.filmes img {
+    border-radius: 10px;
 }
 
 .rodape {
@@ -102,12 +106,38 @@ p {
 @media(max-width:768px) {
     .cabecalho .container {
         flex-direction: column;
+        padding: 10px;
     }
     
     .cabecalho-nav {
         flex-direction: column;
     }
+
+    .cabecalho-nav-link {
+        margin: 5px
+    }
+
+    h1 {
+        font-size: 30px;
+    }
     
     .container .listadefilmes {
         flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .filmes img {
+        width: 150px;
+    }
+
+    .filmes {
+        padding: 15px
+    }
+
+    .logo {
+        margin: 3px;
+        width:40px;
+        padding: 10px 0;
+
     }
